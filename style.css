@@ -1,0 +1,115 @@
+/* ブラウザで設定されているスタイルのリセット・共通設定 */
+/* 消さないでください */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.sidebar-header a {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #4f7cac;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form,
+input,
+textarea,
+select,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+/* スタイルのリセット終了 */
+
+/* サイドバーとメインコンテンツを包むための要素のスタイルを書いてください */
+.sidebar {
+  width: 256px;
+  flex-shrink: 0;
+  background-color: #f5f5f5;
+  border-right: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+/* サイドバーに関連するスタイルを書いてください */
+
+
+/* メインコンテンツに関連するスタイルを書いてください */
+
+.main-content {
+  flex: 1;
+}
+
+.main-header {
+  background-color: white;
+  padding: 32px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+.profile-icon {
+  width: 96px;
+  height: 96px;
+  background-color: #4f7cac;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 24px;
+}
+
+.profile-icon span {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.main-header h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2f2f2f;
+  margin-bottom: 8px;
+}
+
+.main-header h2 {
+  font-size: 1.125rem;
+  color: #757575;
+  margin-bottom: 24px;
+}
+
+.message {
+  max-width: 672px;
+  margin: 0 auto;
+  padding: 32px;
+  color: #757575;
+}
+
+.message p {
+  margin-bottom: 16px;
+}
+
+
